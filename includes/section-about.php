@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="col-md-5 d-none d-md-block">
-                <img class="img-fluid img-thumbnail" src="{{asset('assets/images/avatar.jpg')}}"
+                <img class="img-fluid img-thumbnail" src="<?php echo get_template_directory_uri(). "/images/avatar.jpg"?>"
                      alt="About Picture">
             </div>
         </div>

@@ -8,10 +8,10 @@
     <div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
         <div class=" swiper-wrapper">
             <div class="portfolio-item swiper-slide slideshow" data-groups="all slideshow">
-                <a href="{{asset('assets/images/custom/frontendskill.jpg')}}"
+                <a href="<?php echo get_template_directory_uri()."/images/custom/frontend_skill.jpg"?>"
                    class="portfolio-item--content simple-ajax-popup">
                     <div class="portfolio-item--img b-box">
-                        <img src="{{asset('assets/images/custom/frontendskill.jpg')}}" class="img-fluid mx-auto"
+                        <img src="<?php echo get_template_directory_uri()."/images/custom/frontend_skill.jpg"?>" class="img-fluid mx-auto"
                              alt="work-img">
                     </div>
                     <div class="portfolio-item--desc d-flex justify-content-center align-items-center">
@@ -27,10 +27,10 @@
                 </a>
             </div>
             <div class="portfolio-item swiper-slide image" data-groups="all image">
-                <a href="{{asset('assets/images/custom/nodejs.jpg')}}"
+                <a href="<?php echo get_template_directory_uri()."/images/custom/nodejs.jpg"?>"
                    class="portfolio-item--content simple-ajax-popup">
                     <div class="portfolio-item--img b-box">
-                        <img src="{{asset('assets/images/custom/nodejs.jpg')}}" class="img-fluid mx-auto"
+                        <img src="<?php echo get_template_directory_uri()."/images/custom/nodejs.jpg"?>" class="img-fluid mx-auto"
                              alt="work-img">
                     </div>
                     <div class="portfolio-item--desc d-flex justify-content-center align-items-center">
@@ -46,10 +46,10 @@
                 </a>
             </div>
             <div class="portfolio-item swiper-slide " data-groups="all slideshow">
-                <a href="{{asset('assets/images/custom/php.jpg')}}"
+                <a href="<?php echo get_template_directory_uri()."/images/custom/php.jpg"?>"
                    class="portfolio-item--content simple-ajax-popup">
                     <div class="portfolio-item--img b-box">
-                        <img src="{{asset('assets/images/custom/php.jpg')}}" class="img-fluid mx-auto"
+                        <img src="<?php echo get_template_directory_uri()."/images/custom/php.jpg"?>" class="img-fluid mx-auto"
                              alt="work-img">
                     </div>
                     <div class="portfolio-item--desc d-flex justify-content-center align-items-center">
@@ -66,10 +66,11 @@
                 </a>
             </div>
             <div class="portfolio-item swiper-slide video" data-groups="all video">
-                <a href="{{asset('assets/images/custom/database.jpg')}}"
+                <a href="<?php echo get_template_directory_uri()."/images/custom/database.jpg"?>"
                    class="portfolio-item--content simple-ajax-popup">
                     <div class="portfolio-item--img b-box">
-                        <img src="{{asset('assets/images/custom/database.jpg')}}" class="img-fluid mx-auto"
+<!--                        <img src="{{asset('assets/images/custom/')}}" class="img-fluid mx-auto"-->
+                        <img src="<?php echo get_template_directory_uri()."/images/custom/database.jpg"?>" class="img-fluid mx-auto"
                              alt="work-img">
                     </div>
                     <div class="portfolio-item--desc d-flex justify-content-center align-items-center">
@@ -84,9 +85,9 @@
                 </a>
             </div>
             <div class="portfolio-item swiper-slide image" data-groups="all image">
-                <a href="{{asset('assets/images/p9-9.jpg')}}" class="portfolio-item--content simple-ajax-popup">
+                <a href="<?php echo get_template_directory_uri()."/images/custom/extra.jpg"?>" class="portfolio-item--content simple-ajax-popup">
                     <div class="portfolio-item--img b-box">
-                        <img src="{{asset('assets/images/p9-9.jpg')}}" class="img-fluid mx-auto" alt="work-img">
+                        <img src="<?php echo get_template_directory_uri()."/images/custom/extra.jpg"?>" class="img-fluid mx-auto" alt="work-img">
                     </div>
                     <div class="portfolio-item--desc d-flex justify-content-center align-items-center">
                         <div class="portfolio-item--desc-in">
