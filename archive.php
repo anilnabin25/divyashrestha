@@ -1,0 +1,1 @@
+<!-- This  is the template file used to display a list of posts from a specific category, tag, date, or custom taxonomy, or for other types of archives like author archives or search results-->

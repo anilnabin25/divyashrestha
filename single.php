@@ -1,0 +1,1 @@
+<!--This is the template file used to display individual blog posts -->

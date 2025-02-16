@@ -1,0 +1,1 @@
+<!--This is a template file used to display static pages-->
