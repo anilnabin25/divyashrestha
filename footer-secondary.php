@@ -4,6 +4,7 @@
     </div>
 </footer>
 <?php wp_footer(); ?>
+this is the secondary footer
 </body>
 </html>
 

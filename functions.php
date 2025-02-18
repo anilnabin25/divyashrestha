@@ -14,8 +14,6 @@ function load_css()
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
-
-
 // this code is for loading javascript
 function load_js()
 {
@@ -32,6 +30,13 @@ function load_js()
 }
 add_action('wp_enqueue_scripts', 'load_js');
 
+// theme options
+add_theme_support('menus');
 
-
-
+// register menus
+register_nav_menus(
+    array(
+        'top_menu' => 'Top Menu',
+        'mobile_menu' => 'Mobile Menu',
+    )
+);

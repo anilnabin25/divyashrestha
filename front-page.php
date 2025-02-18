@@ -1,10 +1,6 @@
-<!--This is the template file used to display the site's homepage, and it is used when a static page is set as the front page or when the site's settings define a custom layout for the homepage-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php get_header();?>
-    <title>Divya - Developer</title>
-</head>
+<!--This is the template file used to display the site's homepage, and it is used when a static page is set as the front-->
+<!--page or when the site's settings define a custom layout for the homepage-->
+<?php get_header(); ?>
 <body data-spy="scroll" data-target=".navbar">
 
 <!-- Google Tag Manager (noscript) -->
@@ -26,7 +22,6 @@
     <?php get_template_part('includes/section', 'service'); ?>
     <?php get_template_part('includes/section', 'skill'); ?>
     <?php get_template_part('includes/section', 'contact'); ?>
-    <?php get_footer();?>
+
 </div>
-</body>
-</html>
+<?php get_footer();?>
