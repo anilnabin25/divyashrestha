@@ -1,0 +1,51 @@
+/*.download_bts a {*/
+/*    float: left;*/
+/*    display: block;*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    color: #000;*/
+/*    background: #fff;*/
+/*    text-align: center;*/
+/*    line-height: 40px;*/
+/*}*/
+
+/*.download_bts a i {*/
+/*    font-size: 20px;*/
+/*    line-height: 40px;*/
+/*    color: #222;*/
+/*    !*animation-name: settings;*!*/
+/*    !*animation-duration: 1.5s;*!*/
+/*    !*animation-iteration-count: infinite;*!*/
+/*    !*animation-timing-function: linear;*!*/
+/*}*/
+
+.toggle_bts a{
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    transition: background-color 0.3s ease;
+    background-color: #4CAF50;
+
+}
+
+.toggle_bts:hover a{
+    background-color: #45a049;
+}
+
+/*.toggle_bts {*/
+/*    padding: 10px 20px; !* Space inside the button *!*/
+/*    background-color: #4CAF50; !* Button background color *!*/
+/*    color: white; !* Text color *!*/
+/*    border: none; !* Remove default border *!*/
+/*    border-radius: 5px; !* Rounded corners *!*/
+/*    cursor: pointer; !* Change the cursor to a hand when hovering *!*/
+/*    font-size: 16px; !* Font size *!*/
+/*    transition: background-color 0.3s ease; !* Smooth transition on hover *!*/
+/*}*/
+
+/*.toggle_bts:hover {*/
+/*    background-color: #45a049; !* Darker green on hover *!*/
+/*}*/

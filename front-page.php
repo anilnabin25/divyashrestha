@@ -16,6 +16,14 @@
     </div>
 </div>
 <div class="page-wrapper">
+    <div class="settings_panel">
+                <div class="toggle_bts">
+<!--        <div class="download_bts">-->
+            <a class="toggle-theme-panel pointer-event" href="#">
+                Download
+            </a>
+        </div>
+    </div>
     <?php get_template_part('includes/section', 'nav'); ?>
     <?php get_template_part('includes/section', 'home'); ?>
     <?php get_template_part('includes/section', 'about'); ?>

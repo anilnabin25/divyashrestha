@@ -235,10 +235,10 @@
     * Switcher
     /* ---------------------------------------------- */
 
-    $('.toggle-theme-panel').on("click",function(e) {
-        e.preventDefault();
-        $('.settings_panel').toggleClass('active');
-    });
+    // $('.toggle-theme-panel').on("click",function(e) {
+    //     e.preventDefault();
+    //     $('.settings_panel').toggleClass('active');
+    // });
     $('.colors-switch a').on("click",function(e) {
         e.preventDefault();
         var attr = $(this).attr("title");

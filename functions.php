@@ -7,10 +7,10 @@ function load_css()
     wp_enqueue_style('vendor_css');
     wp_register_style('setting_css', get_template_directory_uri() . '/css/settings.css', array(), false, 'all');
     wp_enqueue_style('setting_css');
-    wp_register_style('custom_css', get_template_directory_uri() . '/css/custom.css', array(), false, 'all');
-    wp_enqueue_style('custom_css');
     wp_register_style('justin_red', get_template_directory_uri() . '/css/justin-red.css', array(), false, 'all');
     wp_enqueue_style('justin_red');
+    wp_register_style('custom_css', get_template_directory_uri() . '/css/custom.css', array(), false, 'all');
+    wp_enqueue_style('custom_css');
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
@@ -37,6 +37,6 @@ add_theme_support('menus');
 register_nav_menus(
     array(
         'top_menu' => 'Top Menu',
-        'mobile_menu' => 'Mobile Menu',
+        'mobilemenu' => 'Mobile Menu',
     )
 );
